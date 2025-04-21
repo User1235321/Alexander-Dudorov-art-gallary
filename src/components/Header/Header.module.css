@@ -1,0 +1,21 @@
+.header {
+    background-color: var(--white);
+    padding: 0 24px;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: rgba(0, 57, 42, 1);
+    border-bottom: 1px solid var(--white);
+  }
+  
+  .textWhite {
+    color: var(--white);
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 0 16px;
+    }
+  }
